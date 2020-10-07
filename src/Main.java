@@ -14,7 +14,10 @@ public class Main {
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             //instantiation and method calls goes here (below)
 
-            TwoSum ts = new TwoSum();
+            //TwoSum ts = new TwoSum();
+            //Palindrome pal = new Palindrome();
+            ReversePhrase reversePhrase = new ReversePhrase();
+            System.out.println(reversePhrase.reverse("Hello Cruel World"));
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -22,6 +25,7 @@ public class Main {
              *
              **/
             System.out.println(
+                    " \n" +
                     "Press any key to continue\n" +
                             "Press 't' to  terminate\n"
             );

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class TwoSum {
 
     /**
+     * PAGES 5-8 (getTwoSum)
      * getTwoSum method COMPLETED
         - no test made (void method)
      * @param nums
