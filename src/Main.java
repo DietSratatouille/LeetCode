@@ -15,9 +15,6 @@ public class Main {
             //instantiation and method calls goes here (below)
 
             TwoSum ts = new TwoSum();
-            ts.getTwoSumTwo(new int[]{1,2,3,4,5});
-            //ts.getTwoSum(testArr);
-            ts.getTwoSumTwo(new int [] {3,6,1,13,9});
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -54,7 +54,7 @@ public class TwoSum {
 
 
     public void addNumber(int num){
-        
+
     }
 
     //default constructor
