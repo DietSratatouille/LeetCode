@@ -44,7 +44,17 @@ public class TwoSum {
         } catch (Exception e){
             System.out.println("Well ill be damned");
         }
+    }
 
+
+    public int findNumber(int num){
+
+        return num;
+    }
+
+
+    public void addNumber(int num){
+        
     }
 
     //default constructor
