@@ -22,8 +22,8 @@ public class Main {
             //TwoSum ts = new TwoSum();
             //Palindrome pal = new Palindrome();
             //ReversePhrase reversePhrase = new ReversePhrase();
-            ValidNumber validNumber = new ValidNumber();
-            validNumber.validateNumber("02");
+            //ValidNumber validNumber = new ValidNumber();
+            //Substring substring = new Substring();
 
             /**COMPLETED PROBLEM STATEMENT CLASS INSTANTIATION ABOVE**/
 
@@ -35,7 +35,7 @@ public class Main {
             System.out.println(
                     " \n" +
                     "Press any key to continue\n" +
-                            "Press 't' to  terminate\n"
+                            "Press 't' to terminate\n"
             );
             String userInput = scanner.nextLine();
 

@@ -9,15 +9,25 @@ public class ValidNumber {
     public boolean validateNumber(String str){
         try{
             Double.parseDouble(str);  //doesn't work
-            Integer.parseInt(str);
-            Float.parseFloat(str);   //doesn't work
-//            int i = Integer.parseInt(str);
-//            double d = Double.parseDouble(str);
-//            float f = Float.parseFloat(str);
             System.out.println("Valid number");
             return true;
+        } catch (Exception e){
+            System.out.println("Not a valid number");
         }
-        catch (Exception e){
+
+        try{
+            Float.parseFloat(str);   //doesn't work
+            System.out.println("Valid number");
+            return true;
+        } catch (Exception e){
+            System.out.println("Not a valid number");
+        }
+
+        try{
+            Integer.parseInt(str);
+            System.out.println("Valid number");
+            return true;
+        } catch (Exception e){
             System.out.println("Not a valid number");
         }
 
