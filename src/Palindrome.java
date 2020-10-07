@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Palindrome {
 
     /**
+     * Difficulty: Easy
      * PAGE 10 (validPalindrome)
-     * validPalidnrome method COMPLETED
+     * method COMPLETED
      * @param str
      */
     public boolean validPalindrome(String str){

@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/** Sterling Tyson (Pyramid Consulting Inc.)
+ * [Place Holder]
+ *
+ */
+
 public class Main {
     public static void main(String[] args) {
         boolean done = false;
@@ -12,12 +17,15 @@ public class Main {
         while(!done) {
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            //instantiation and method calls goes here (below)
+            /**instantiation and method calls goes here (below)**/
 
             //TwoSum ts = new TwoSum();
             //Palindrome pal = new Palindrome();
-            ReversePhrase reversePhrase = new ReversePhrase();
-            System.out.println(reversePhrase.reverse("Hello Cruel World"));
+            //ReversePhrase reversePhrase = new ReversePhrase();
+            ValidNumber validNumber = new ValidNumber();
+            validNumber.validateNumber("02");
+
+            /**COMPLETED PROBLEM STATEMENT CLASS INSTANTIATION ABOVE**/
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -5,8 +5,9 @@ import java.util.stream.Stream;
 public class ReversePhrase {
 
     /**
+     * Difficulty: Easy
      * PAGE 12 (Reverse WORDS in a string)
-     * reverse method COMPLETED
+     * method COMPLETED
      * @param str
      */
     public String reverse(String str){
