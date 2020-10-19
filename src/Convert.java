@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Convert {
 
     /**
@@ -23,5 +26,14 @@ public class Convert {
     public static String intToStr(int num){
 
         return String.valueOf(num);
+    }
+
+    public static int[] listToIntArray(ArrayList<Integer> arrayList){
+        int[] outArray = new int[arrayList.size()];
+
+        for(int i = 0; i < arrayList.size(); i++){
+            outArray[i] = arrayList.get(i);
+        }
+        return outArray;
     }
 }

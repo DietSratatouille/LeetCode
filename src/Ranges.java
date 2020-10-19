@@ -1,11 +1,24 @@
+import java.util.*;
+
+
 public class Ranges {
 
-    public int[] findMissingNumbers(int[] inputArray){
-        int[] missingNums = new int[]{};
+    public int[] findMissingRanges(int[] inputArray){
+        int minRange = 0;
+        int maxRange = 99;
 
-        for (int i = 0; i < 100; i++){
+        int tmpMinRange = 0;
+        int tmpMaxRange = 0;
 
-        }
+        
+
+        ArrayList <Integer> missingNumbers = new ArrayList<>();
+
+
+        //List <Integer> list = new ArrayList<>();
+        //Map to list values to integer array with method reference
+        //return list.stream().mapToInt(Integer::intValue).toArray();
+
         return new int[]{};
     }
 }

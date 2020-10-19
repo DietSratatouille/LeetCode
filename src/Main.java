@@ -24,6 +24,8 @@ public class Main {
             //ReversePhrase reversePhrase = new ReversePhrase();
             //ValidNumber validNumber = new ValidNumber();
             //Substring substring = new Substring();
+            Ranges ranges = new Ranges();
+            //System.out.println(ranges.findMissingNumbers(new int[]{1, 2, 3, 4, 6, 7, 9, 10}).toString());
 
             /**COMPLETED PROBLEM STATEMENT CLASS INSTANTIATION ABOVE**/
 
